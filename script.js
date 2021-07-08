@@ -1,4 +1,5 @@
-var principal = document.getElementById("principal").value;
+var principal = 0;
+principal = document.getElementById("principal").value;
 var rate = document.getElementById("rate").value;
 var years = document.getElementById("years").value;
 var amount = principal * years * rate / 100;
